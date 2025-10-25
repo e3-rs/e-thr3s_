@@ -4,6 +4,10 @@
 
 **ehoch3s oder e-thr3** (einkauf-einfach-effizient) ist ein intelligenter Assistent zur semantischen Analyse externer Ereignismeldungen mit dem Ziel, strategische Einkaufsentscheidungen datenbasiert zu unterstützen. Das System identifiziert potenziell relevante Zusammenhänge zwischen globalen Ereignissen (z. B. Naturkatastrophen, Rohstoffentwicklungen, Wirtschaftsnachrichten) und unternehmensspezifischen Beschaffungsinteressen.
 
+Problem:
+Moderne AI und Gen AI ist sehr ressourcen intensiv. Es soll ein schlanker AI Assistent speziell für den Einkauf/Procurement geschaffen werden.
+Besonders gute Risk-Alerts Modelle sind sehr kostenintensiv und ein der Genemigungsworkflow zur Freigabe lang.
+Dieses Tool soll den Einstieg und die Sinnhaftigkeit teurer Tool näherbringen. Der /user erhällt daten, die er als letzte Instanz plaubilisieren muss.
 ---
 
 ## Funktionen
