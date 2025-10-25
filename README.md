@@ -1,4 +1,4 @@
-# Project Title
+# e-thr3s AI
 
 e-thr3s AI  (spoken *e-threes*  A EI)
 
