@@ -3,6 +3,7 @@
 # Einkauf-Einfach-Effizient (ehoch3s oder e-thr3s)  activate your performance
 
 ##Summary
+
 **ehoch3s oder e-thr3** (einkauf-einfach-effizient) ist ein intelligenter Assistent zur semantischen Analyse externer Ereignismeldungen mit dem Ziel, strategische Einkaufsentscheidungen datenbasiert zu unterstützen. Das System identifiziert potenziell relevante Zusammenhänge zwischen globalen Ereignissen (z. B. Naturkatastrophen, Rohstoffentwicklungen, Wirtschaftsnachrichten) und unternehmensspezifischen Beschaffungsinteressen.
 
 Problem:
