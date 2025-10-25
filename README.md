@@ -1,9 +1,8 @@
-# thr3e-einkauf-einfach-effizient (ehoch*3 oder thr3e)
+# e-thr3s AI  (spoken *e-threes*  A EI ASS)
 
+# Einkauf-Einfach-Effizient (ehoch3s oder e-thr3s)  activate your performance
 
-# Einkauf-Einfach-Effizient (ehoch*3 oder thr3e)
-
-**ehoch*3 oder thr3e** (einkauf-einfach-effizient) ist ein intelligenter Assistent zur semantischen Analyse externer Ereignismeldungen mit dem Ziel, strategische Einkaufsentscheidungen datenbasiert zu unterstützen. Das System identifiziert potenziell relevante Zusammenhänge zwischen globalen Ereignissen (z. B. Naturkatastrophen, Rohstoffentwicklungen, Wirtschaftsnachrichten) und unternehmensspezifischen Beschaffungsinteressen.
+**ehoch3s oder e-thr3** (einkauf-einfach-effizient) ist ein intelligenter Assistent zur semantischen Analyse externer Ereignismeldungen mit dem Ziel, strategische Einkaufsentscheidungen datenbasiert zu unterstützen. Das System identifiziert potenziell relevante Zusammenhänge zwischen globalen Ereignissen (z. B. Naturkatastrophen, Rohstoffentwicklungen, Wirtschaftsnachrichten) und unternehmensspezifischen Beschaffungsinteressen.
 
 ---
 
@@ -11,10 +10,11 @@
 
 - **Semantisches Ereignis-Matching**  
   Automatisierte Verknüpfung von Nachrichteninhalten anhand von Schlüsselbegriffen und semantischer Nähe. Beispiel:  
-  *„Orkan in Indonesien“ + „Indonesien = Hauptproduzent L1 von Wolle“ → Indoniesien, GEOPOS „Wolle betroffen durch Orkan“*
+  *„Orkan in Indonesien“ + „Indonesien = Hauptproduzent L1 von Wolle“ → Indoniesien, GEOPOS „Wolle betroffen durch Orkan, L1“*
 
 - **Relevanzbewertung & Alert-System**  
   Visualisierung potenziell kritischer Ereignisse mit Wahrscheinlichkeitsindikatoren zur Einschätzung der Relevanz für definierte Beschaffungsbereiche oder Lieferanten.
+  Marktpreis gester, Marktpreiseheute
 
 - **Feedback-Mechanismus zur Modelloptimierung**  
   Nutzer:innen können Alerts mit „Daumen hoch“ oder „Daumen runter“ bewerten, um die semantische Gewichtung und Matching-Logik kontinuierlich zu verbessern.
@@ -30,7 +30,7 @@ Das System richtet sich primär an strategische Einkäufer:innen, Supply-Chain-M
 ## Technologischer Stack
 
 - **Programmiersprache:** Python 3.8+
-// Nicht abschließend - weitere Module im Test // 
+// Nicht abschließend - weitere Module folgend // 
 - **NLP & semantische Analyse:**  
   - `spaCy`  
   - `sentence-transformers`
@@ -42,11 +42,14 @@ Das System richtet sich primär an strategische Einkäufer:innen, Supply-Chain-M
   - `Seaborn`  
   - `Dash`
 
+
+- **GUI / GTK Assintent in Planung**
+
 ---
 
 ## Datenquellen
 
-ehoch3 nutzt öffentlich zugängliche APIs zur Beschaffung aktueller Nachrichtenmeldungen:
+ehoch3s nutzt öffentlich zugängliche APIs zur Beschaffung aktueller Nachrichtenmeldungen:
 
 - [NewsData.io](https://newsdata.io)  
 - [NewsAPI.org](https://newsapi.org)  
@@ -60,8 +63,8 @@ Die Integration zusätzlicher, auch kommerzieller APIs ist über eine modulare S
 
 1. Repository klonen:
    ```bash
-   git clone https://github.com/deinname/eee3.git
-   cd eee3
+   git clone https://github.com/_dev_name_/e-thr3s.git
+   cd e-thr3s
    ```
 
 2. Abhängigkeiten installieren:
@@ -73,10 +76,10 @@ Die Integration zusätzlicher, auch kommerzieller APIs ist über eine modulare S
 
 ## Nutzung
 
-Das Hauptskript `thr3e.py` kann über die Kommandozeile ausgeführt werden:
+Das Hauptskript `e-thr3s.py` kann über die Kommandozeile ausgeführt werden:
 
 ```bash
-python thr3e.py --input meldungen.json --bereich textil --dashboard
+python e-thr3s.py --input meldungen.json --bereich textil --dashboard
 ```
 
 - `--input`: Pfad zur JSON-Datei mit strukturierten Meldungen  
