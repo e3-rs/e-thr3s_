@@ -1,4 +1,4 @@
-# e-thr3s AI  (spoken *e-threes*  A EI ASS)
+# e-thr3s AI  (spoken *e-threes*  A EI)
 
 # Einkauf-Einfach-Effizient (ehoch3s oder e-thr3s)  activate your performance
 
