@@ -1,16 +1,22 @@
-# e-thr3s AI  (spoken *e-threes*  A EI)
+# Project Title
 
-# Einkauf-Einfach-Effizient (ehoch3s oder e-thr3s)  activate your performance
+e-thr3s AI  (spoken *e-threes*  A EI)
 
-##Summary
+
+## Summary
 
 **ehoch3s oder e-thr3** (einkauf-einfach-effizient) ist ein intelligenter Assistent zur semantischen Analyse externer Ereignismeldungen mit dem Ziel, strategische Einkaufsentscheidungen datenbasiert zu unterstützen. Das System identifiziert potenziell relevante Zusammenhänge zwischen globalen Ereignissen (z. B. Naturkatastrophen, Rohstoffentwicklungen, Wirtschaftsnachrichten) und unternehmensspezifischen Beschaffungsinteressen.
 
-Problem:
+
+## Background
+
 Moderne AI und Gen AI ist sehr ressourcen intensiv. Es soll ein schlanker AI Assistent speziell für den Einkauf/Procurement geschaffen werden.
 Besonders gute Risk-Alerts Modelle sind sehr kostenintensiv und ein der Genemigungsworkflow zur Freigabe lang.
 Dieses Tool soll den Einstieg und die Sinnhaftigkeit teurer Tool näherbringen. Der /user erhällt daten, die er als letzte Instanz plaubilisieren muss.
----
+## How is it used?
+
+
+```
 
 ## Funktionen
 
@@ -25,16 +31,12 @@ Dieses Tool soll den Einstieg und die Sinnhaftigkeit teurer Tool näherbringen. 
 - **Feedback-Mechanismus zur Modelloptimierung**  
   Nutzer:innen können Alerts mit „Daumen hoch“ oder „Daumen runter“ bewerten, um die semantische Gewichtung und Matching-Logik kontinuierlich zu verbessern.
 
----
-
 ## Zielgruppe
 
 Das System richtet sich primär an strategische Einkäufer:innen, Supply-Chain-Manager:innen und Entscheidungsträger:innen, die externe Einflussfaktoren frühzeitig erkennen und in ihre Beschaffungsstrategie integrieren möchten – bei minimalem manuellem Aufwand.
 
----
 
-## Technologischer Stack
-
+## Data Stack
 - **Programmiersprache:** Python 3.8+
 // Nicht abschließend - weitere Module folgend // 
 - **NLP & semantische Analyse:**  
@@ -47,23 +49,35 @@ Das System richtet sich primär an strategische Einkäufer:innen, Supply-Chain-M
   - `Plotly`  
   - `Seaborn`  
   - `Dash`
-
-
 - **GUI / GTK Assintent in Planung**
 
----
 
-## Datenquellen
+
+
+
+
+
+
+## Data sources and AI methods
+
 
 ehoch3s nutzt öffentlich zugängliche APIs zur Beschaffung aktueller Nachrichtenmeldungen:
 
 - [NewsData.io](https://newsdata.io)  
 - [NewsAPI.org](https://newsapi.org)  
 - [GNews API](https://gnews.io)  
+
 - *Optional, Liste nicht vollständig (zukünftig geplant):* [Perigon](https://perigon.io) für kontextuelle Analyse und Entitäten-Erkennung
 Die Integration zusätzlicher, auch kommerzieller APIs ist über eine modulare Schnittstelle vorgesehen.
 
----
+
+
+
+
+## Challenges
+
+
+-/-
 
 ## Installation
 
@@ -78,9 +92,13 @@ Die Integration zusätzlicher, auch kommerzieller APIs ist über eine modulare S
    pip install -r requirements.txt
    ```
 
----
 
-## Nutzung
+
+
+
+## Acknowledgments
+
+## Start
 
 Das Hauptskript `e-thr3s.py` kann über die Kommandozeile ausgeführt werden:
 
@@ -94,13 +112,13 @@ python e-thr3s.py --input meldungen.json --bereich textil --dashboard
 
 ---
 
-## Beispielmaterial & Demo
+## Demo
 
 Da sich das Projekt aktuell in der frühen Entwicklungsphase befindet und als nicht-kommerzielles Hobbyprojekt betrieben wird, stehen derzeit keine Beispiel-Dateien oder öffentliche Demos zur Verfügung. Eine Bereitstellung entsprechender Ressourcen ist für zukünftige Releases geplant.
 
 ---
 
-## Lizenz
+## License
 
 Dieses Projekt steht unter der **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
 Jegliche Nutzung – insbesondere über Netzwerkschnittstellen – verpflichtet zur Offenlegung des Quellcodes und etwaiger Modifikationen.  
@@ -108,14 +126,9 @@ Kommerzielle Nutzung außerhalb des vorgesehenen Basissystems ist derzeit nicht 
 
 ---
 
-## Mitwirkung
 
-Beiträge zur Weiterentwicklung sind willkommen. Bitte nutzen Sie dafür Pull Requests oder GitHub Issues.  
-Beachten Sie dabei die Lizenzbedingungen sowie die geplante Architektur des Projekts.
-
----
-
-## Kontakt
+## Contact
 
 Derzeit handelt es sich um ein nicht-kommerzielles Entwicklungsprojekt ohne offizielle Supportstruktur.  
 Für Rückfragen oder Hinweise kann das GitHub-Issue-Tracking verwendet werden.
+
