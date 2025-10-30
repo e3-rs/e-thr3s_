@@ -2,15 +2,17 @@
 **Preamble:**
 
 It is not in the author´s attention to shock newbies at their first steps in ai.
-**It is recommended** to read and rate this project idea with an **intermediate level or higher** of some AI-courses.
+**It is recommended** to read and rate this project idea with an **intermediate level of some AI-courses** or some experience on linux terminal prompt.
 
 Why?
 It could be difficult to follow the author´s deep diving description and ideas with this much specific termini. But this technical description is need to understand what the usp/idea/valueable benefit will be.
 
  
 Allright? 
-Appreciate your understanding 😊
-and now enjoy.
+Appreciate your understanding 😊, and sorry for that.
+Now enjoy.
+
+
 
 e-thr3s AI  (spoken *e-threes*  A EI)
 
